@@ -1,7 +1,480 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Stefan Schrunner - Personal Website</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio - v3.0.0
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Stefan Schrunner</a></h1>
+        <!--<div class="social-links mt-3 text-center">
+          <a href="https://www.linkedin.com/in/stefan-schrunner-b1045417a" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+		  <a href="https://github.com/sschrunner" class="github"><i class="bx bxl-github"></i></a>
+        </div>-->
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#home" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+		  <li><a href="#researchareas" class="nav-link scrollto"><i class="bi bi-signpost-split"></i> <span>Research Areas</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bi bi-person-square"></i> <span>Resume</span></a></li>
+          <li><a href="#publications" class="nav-link scrollto"><i class="bx bx-list-ul"></i> <span>Publications</span></a></li>
+		  <li><a href="#about" class="nav-link scrollto"><i class="bi bi-person-lines-fill"></i> <span>About</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+	<!-- ======= Home Section ======= -->
+	  <section id="home" class="d-flex flex-column justify-content-center align-items-center">
+		<div class="home-container" data-aos="fade-in">
+		  <h1>Stefan Schrunner</h1>
+		  <p>Postdoctoral data science researcher</p>
+		</div>
+	  </section>
+	<!-- End Home -->
+
+	<main id="main">
+
+	<!-- ======= Services Section ======= -->
+    <section id="researchareas" class="researchareas">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Research Areas</h2>
+		  <p> My research focusses on the interface between machine learning and statistics, applied to solve real-world problems across domains.
+		  During my previous positions, my work was funded by ECSEL Joint Undertaking/Austrian Research Promotion Agency (project <i><a href = "http://www.semi40.eu/", target = "_blank">SemI40</a></i>, 2016-2019) 
+		  and by the Norwegian Cancer Society (project <i>Bioradiance</i>, 2019-2020).</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="bi bi-binoculars"></i></div>
+            <h4 class="title">Data science & machine learning</h4>
+            <p class="description">probabilistic models for machine learning, feature selection, un-/semi-supervised learning</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="bi bi-bar-chart"></i></div>
+            <h4 class="title">Applied statistics</h4>
+            <p class="description">Bayesian statistics, computational statistics, design of experiments, spatial and spatio-temporal models</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="bi bi-image"></i></div>
+            <h4 class="title">Image processing</h4>
+            <p class="description">medical imaging, image segmentation and tumor delineation, feature extraction from images</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon"><i class="bi bi-graph-up"></i></div>
+            <h4 class="title">Time series analysis</h4>
+            <p class="description">functional data analysis, time series classification and prediction</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon"><i class="bi bi-cpu-fill"></i></div>
+            <h4 class="title">Industrial process control</h4>
+            <p class="description">process monitoring, error detection via pattern recognition</p>
+          </div>
+        </div>
+		
+		
+
+      </div>
+    </section><!-- End Services Section -->
+
+	<!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+		  <p>My PhD was part of an industrial research project. Since then, I held data science positions in healthcare and life sciences.
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Research Positions</h3>
+            <div class="resume-item">
+              <h4>Postdoctoral fellow in data science</h4>
+              <h5>2021-present</h5>
+              <p><em>Norwegian University of Life Sciences, Ås, Norway</em></p>
+              <ul>
+                <li>developing machine learning methods for time series analysis in life science use-cases</li>
+              </ul>
+            </div><div class="resume-item">
+              <h4>Postdoctoral fellow in data science</h4>
+              <h5>2019 - 2020</h5>
+              <p><em>Oslo University Hospital, Oslo, Norway</em></p>
+              <ul>
+                <li>developed and applied machine learning for medical cancer imaging, microscopic imaging and treatment outcome prediction</li>
+              </ul>
+            </div>
+			<div class="resume-item">
+              <h4>Industrial PhD / Master's student</h4>
+              <h5>2015-2019</h5>
+              <p><em>KAI GmbH, Villach, Austria (part of Infineon Technologies)</em></p>
+              <ul>
+                <li>conducted research on data science methods for pattern recognition</li>
+                <li>implemented machine learning in process control for semiconductor manufacturing</li>
+                <li>investigated experimental designs for semiconductor lifetime studies</li>
+              </ul>
+            </div>
+          </div>
+		  
+		  <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Doctoral degree (PhD) in computer science</h4>
+              <h5>2016-2019</h5>
+              <p><em>Graz University of Technology, Austria</em></p>
+              <p>passed with distinction</p>
+            </div>
+			<div class="resume-item">
+              <h4>Diplom-Ingenieur (Master's degree) in technical mathematics</h4>
+              <h5>2014-2016</h5>
+              <p><em>University of Klagenfurt, Austria</em></p>
+			  <p>specialized in applied statistics</p>
+			  <p>passed with distinction</p>
+            </div>
+			<div class="resume-item">
+              <h4>Bachelor of Science in technical mathematics</h4>
+              <h5>2011 - 2014</h5>
+              <p><em>University of Klagenfurt, Austria</em></p>
+			  <p>specialized in applied statistics</p>
+			  <p>passed with distinction</p>
+            </div>
+          </div>
+		  
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Publications Section ======= -->
+    <section id="publications" class="publications">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Scientific publications</h2>
+		  <p>I published one book chapter and multiple research papers, both at international computer science conferences and in scientific journals.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Machine learning</h3>
+            <ul>
+              <!--<li>	
+					<font color = "grey">
+						A. Jenul*, <b>S. Schrunner*</b>, J. Pilz and O. Tomic: 
+						<i>A User-Guided Bayesian Framework for Ensemble Feature Selection (UBayFS)</i>. 
+						Submitted, 2021.
+					</font>
+			  </li>-->
+			  <li>
+					<font color = "grey">
+						A. Jenul, <b>S. Schrunner</b>, K. H. Liland, U. G. Indahl, C. M. Futsæther and O. Tomic: 
+						<i>RENT - repeated elastic net technique for feature selection</i>. 
+						Submitted, 2021.
+						<a href = "https://arxiv.org/abs/2009.12780v1", target = "_blank">arXiv</a>
+					</font>
+			  </li>
+			  <li>	
+					<b>S. Schrunner</b>, B. C. Geiger, A. Zernig and R. Kern: 
+					<i>A generative semi-supervised classifier for datasets with unknown classes</i>,
+					ACM Symposium on Applied Computing (SAC),
+					2020. 
+					<a href = "https://dl.acm.org/doi/10.1145/3341105.3373890", target = "_blank">Link</a>,
+					<a href = "https://www.youtube.com/watch?v=Us4MrAIU_xA", target = "_blank">Video</a>
+			  </li>
+			  <li>	
+					<b>S. Schrunner</b>, O. Bluder, A. Zernig, A. Kästner and R. Kern: 
+					<i>A comparison of supervised approaches for process pattern recognition in analog semiconductor wafer test data</i>,
+					IEEE International Conference on Machine Learning and Applications (ICMLA),
+					2018. <a href = "https://ieeexplore.ieee.org/document/8614156", target = "_blank">Link</a>
+			  </li>
+            </ul>
+			</div>
+			<div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Image processing</h3>
+            <ul>
+			  <li>
+					<font color = "grey">
+						D. Arous, <b>S. Schrunner</b>, I. Hanson, N. J. Edin and E. Malinen: 
+						<i>Principal component-based watershed method for image segmentation of in vitro cancer cell colonies</i>.
+						In preparation, 2021.
+					</font>
+			  </li>
+              <li>	
+					M. Pleschberger*, <b>S. Schrunner</b>* and J. Pilz: 
+					<i>An explicit solution for image restoration using Markov Random Fields</i>,
+					Journal of Signal Processing Systems,
+					vol. 92, pages 257-267, 2020.
+					<a href = "https://link.springer.com/article/10.1007/s11265-019-01470-9", target = "_blank">Link</a>
+			  </li>
+			  <li>	
+					T. Santos*, <b>S. Schrunner</b>*, B. C. Geiger, O. Pfeiler, A. Zernig, A. Kästner and R. Kern: 
+					<i>Feature extraction from analog wafermaps: a comparison of classical image processing and a deep generative model</i>,
+					IEEE Transactions on Semiconductor Manufacturing,
+					vol. 32 (2), pages 190-198, 2019.
+					<a href = "https://ieeexplore.ieee.org/document/8689102", target = "_blank">Link</a>
+			  </li>
+			  <li>	
+					<b>S. Schrunner</b>, O. Bluder, A. Zernig, A. Kästner and R. Kern: 
+					<i>Markov random fields for pattern extraction in analog wafer test data</i>,
+					International Conference on Image Processing Theory, Tools and Applications (IPTA),
+					2017.
+					<a href = "https://ieeexplore.ieee.org/document/8310124", target = "_blank">Link</a>
+			  </li>
+            </ul>
+			</div>
+			<div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Semiconductor manufacturing</h3>
+            <ul>
+			  <!--<li>
+					<font color = "grey">
+						<b>S. Schrunner</b>, M. Scheiber, A. Jenul, A. Zernig, A. Kästner and R. Kern: 
+						<i>Machine Learning based Indicators to Enhance Process Monitoring by Pattern Recognition</i>. 
+						In preparation, 2021.
+					</font>
+			  </li>-->
+              <li>	
+					<b>S. Schrunner</b>, A. Jenul, M. Scheiber, A. Zernig, A. Kästner and R. Kern: 
+					<i>A health factor for process patterns - enhancing semiconductor manufacturing by pattern recognition in analog wafermaps</i>,
+					IEEE International Conference on Systems, Man and Cybernetics (SMC),
+					2019.
+					<a href = "https://ieeexplore.ieee.org/document/8914309", target = "_blank">Link</a>
+			  </li>
+			  <li>	
+					<b>S. Schrunner</b>, O. Pfeiler, A. Zernig and J. Pilz: 
+					<i>How to predict the lifetime of semiconductors in real-world applications with limited test resources?</i>,
+					in: Quality Management in Technology 2019,
+					editors: J. Wittmann, W. Bergholz,
+					indepedently published, 
+					2019.
+					<a href = "https://isbnsearch.org/isbn/9781079956535", target = "_blank">Link</a>
+			  </li>
+            </ul>
+			</div>
+			<div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Academic theses</h3>
+            <ul>
+              <li>	
+					<b>S. Schrunner</b>: 
+					<i>Pattern recognition in analog wafer test data - a health factor for process patterns</i>,
+					PhD dissertation, Graz University of Technology,
+					2019.
+					<a href = "https://search-tug.obvsg.at/primo-explore/fulldisplay?docid=TUG_alma2154378470004517&context=L&vid=TUG&lang=de_DE&search_scope=default_scope&adaptor=Local%20Search%20Engine&tab=default_tab&query=any,contains,schrunner&offset=0", target = "_blank">Link</a>,
+					<a href = "https://www.researchgate.net/publication/337607585_Pattern_Recognition_in_Analog_Wafer_Test_Data_-_A_Health_Factor_for_Process_Patterns">ResearchGate</a>
+			  </li>
+			  <li>	
+					<b>S. Schrunner</b>: 
+					<i>Optimal Bayesian experimental design for crossover semiconductor lifetime studies</i>,
+					Master's Thesis, University of Klagenfurt,
+					2016.
+					<a href = "https://surf.aau.at/primo-explore/fulldisplay?docid=UKL_alma2151628030003346&context=L&vid=UKL&lang=de_DE&search_scope=Primokatalog&adaptor=Local%20Search%20Engine&tab=default_tab&query=any,contains,schrunner">Link</a>,
+					<a href = "https://www.researchgate.net/publication/314238335_Optimal_Bayesian_Experimental_Design_for_Crossover_Semiconductor_Lifetime_Studies", target = "_blank">ResearchGate</a>
+			  </li>
+            </ul>
+			</div>
+		</div>
+		* authors contributed equally
+
+      </div>
+    </section>
+	<!-- End Resume Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+		  <p>I grew up in Carinthia (Austria) and moved to Norway in 2019.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Professional skills</h3>
+			<p>My favorite programming language is R, although I prefer object-oriented concepts in Java or Python.</p>
+            
+            <div class="row">
+              <div class="col-lg-12">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Programming:</strong> <span>R, Python, Matlab, Java, C++</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Languages:</strong> <span>German (native), English (professional), French (elementary), Norwegian (elementary)</span></li>
+				  <li><i class="bi bi-chevron-right"></i> <strong>Professional memberships:</strong> <span>IEEE member</span></li>
+                </ul>
+              </div>
+            </div>
+			<hr>
+			<h3>Hobbies</h3>
+			<p class="font-italic">
+              I enjoy to practice sports in nature, particularly in the mountains, and in the water.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> Scuba diving</li>
+				  <li><i class="bi bi-chevron-right"></i> Swimming</li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                                    <li><i class="bi bi-chevron-right"></i> Hiking</li>
+                  <li><i class="bi bi-chevron-right"></i> Skiing</li>
+                </ul>
+              </div>
+			  <div class="col-lg-12">
+				<ul> 
+					<li><i class="bi bi-chevron-right"></i> Voluntary member at the Austrian Water Rescue Federation (<a href = "http://www.oewr-kaernten.at", target = "_blank">ÖWR</a>, Faaker See)</li>
+				</ul>
+			  </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+			
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">		  
+			  <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Work address:</h4>
+                <p>
+				Department of Data Science<br>
+				Faculty of Science and Technology<br>
+				Norwegian University of Life Sciences<br>
+				P.O. Box 5003-REALTEK<br>
+				1435 Ås, Norway</p>
+              </div>
+
+			<div class="address">
+                <i class="bi bi-globe"></i>
+                <h4>Website:</h4>
+                <p><a href = "http://sschrunner.github.io">sschrunner.github.io</a></p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p><a href = "mailto:stefan.schrunner@nmbu.no">stefan.schrunner@nmbu.no</a> (work)<br> 
+				<a href = "mailto:stefan.schrunner@protonmail.com">stefan.schrunner@protonmail.com</a> (private)</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Mobil:</h4>
+                <p>+47 96624795</p>
+              </div>
+			  
+			  <div class="social">
+                <i class="bi bi-hash"></i>
+                <h4>Social media:</h4>
+				<p>
+				<a href = "https://www.linkedin.com/in/stefan-schrunner-b1045417a", target = "_blank">LinkedIn</a><br>
+                <a href = "https://www.researchgate.net/profile/Stefan_Schrunner", target = "_blank">ResearchGate</a><br>
+				<a href = "https://scholar.google.com/citations?user=JH2_H-0AAAAJ", target = "_blank">Google Scholar</a><br>
+				<a href = "https://orcid.org/0000-0003-1327-4855", target = "_blank">ORCID</a><br>
+				<a href = "https://github.com/sschrunner", target = "_blank">GitHub</a>
+				</p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; 2021 <strong><span>Stefan Schrunner</span></strong>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
