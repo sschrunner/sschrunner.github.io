@@ -232,6 +232,8 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
+  padding-left: 50%;
+  padding-top: 100px;
 }
 
 #home h1 {
