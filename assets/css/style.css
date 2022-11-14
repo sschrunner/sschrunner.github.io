@@ -8,6 +8,19 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+   font-family: "Open Sans";
+   src: url("../vendor/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf") format('truetype');
+}
+@font-face {
+   font-family: "Poppins";
+   src: url("../vendor/Poppins/Poppins-Regular.ttf") format('truetype');
+}
+@font-face {
+   font-family: "Raleway";
+   src: url("../vendor/Raleway/Raleway-VariableFont_wght.ttf") format('truetype');
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
